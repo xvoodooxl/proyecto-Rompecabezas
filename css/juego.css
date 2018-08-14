@@ -42,7 +42,6 @@ li::before {
 
 .col-60 {
   background: #E84A5F;
-
 }
 
 #flecha{
@@ -73,7 +72,11 @@ li::before {
 
 .pieza-juego {
   float: left;
-  width: 198px;
-  height: 198px;
-  border: 1px solid black;
+  width: 33.16%;
+  height: 33.16%;
+  border: 0.5px solid black;
+}
+
+.final {
+  width: 80%;
 }
