@@ -1,4 +1,9 @@
 /*Código armado por La Foca Loca S.A. No modificar*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Arial, sans-serif;
   width: 940px;
@@ -61,6 +66,14 @@ li::before {
 
 /* CSS Propio  */
 
-  .pieza-juego img {
-  width: 20px;
+#juego {
+  width: 600px;
+  height: 600px;
+}
+
+.pieza-juego {
+  float: left;
+  width: 198px;
+  height: 198px;
+  border: 1px solid black;
 }
