@@ -28,10 +28,14 @@ function mostrarInstrucciones(instrucciones) {
   for (pos in instrucciones) {
     mostrarInstruccionEnLista(instrucciones[pos], 'lista-instrucciones');
   }
-}
+} //FINALIZADO
 
 /* COMPLETAR: Crear función que agregue la última dirección al arreglo de movimientos
 y utilice actualizarUltimoMovimiento para mostrarlo en pantalla */
+function agregarUltimoMovimiento(direccion) {
+  movimientos.push(direccion);
+  actualizarUltimoMovimiento(direccion);
+} //FINALIZADO
 
 /* Esta función va a chequear si el Rompecabezas esta en la posicion ganadora.
 Existen diferentes formas de hacer este chequeo a partir de la grilla. */
