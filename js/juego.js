@@ -54,7 +54,7 @@ function chequearSiGano(grilla) {
     };
   };
   return true
-}
+}// FINALIZADO
 
 // Implementar alguna forma de mostrar un cartel que avise que ganaste el juego
 function mostrarCartelGanador() {
@@ -78,7 +78,7 @@ function intercambiarPosicionesGrilla(filaPos1, columnaPos1, filaPos2, columnaPo
     let tempGrilla = grilla[filaPos1][columnaPos1];
     grilla[filaPos1][columnaPos1] = grilla[filaPos2][columnaPos2];
     grilla[filaPos2][columnaPos2] = tempGrilla;
-}
+} // reestructurar, tiene que tomar la pieza desde donde se mueve la flecha, no la pieza vacia
 
 // Actualiza la posición de la pieza vacía
 function actualizarPosicionVacia(nuevaFila, nuevaColumna) {
@@ -89,6 +89,7 @@ function actualizarPosicionVacia(nuevaFila, nuevaColumna) {
 
 // Para chequear si la posicón está dentro de la grilla.
 function posicionValida(fila, columna) {
+  return true
     //COMPLETAR
 }
 
