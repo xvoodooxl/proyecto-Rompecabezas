@@ -45,17 +45,20 @@ function chequearSiGano(grilla) {
       [4, 5, 6],
       [7, 8, 9]
   ];
-  if (grilla == grillaGanadora) {
-    return true;
-  } else {
-    return false;
-  }
-    //COMPLETAR
+
+  for (let filaIndex in grillaGanadora) {
+    for (let columnaIndex in grillaGanadora[filaIndex]) {
+      if(grillaGanadora[filaIndex][columnaIndex] != grilla[filaIndex][columnaIndex]) {
+        return false
+      };
+    };
+  };
+  return true
 }
 
 // Implementar alguna forma de mostrar un cartel que avise que ganaste el juego
 function mostrarCartelGanador() {
-  if (chequearSiGano()){
+  if (chequearSiGano(grilla)){
     alert('Ganaste el juego!');
   };
 }
