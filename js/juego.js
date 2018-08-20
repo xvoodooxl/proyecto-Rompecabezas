@@ -56,8 +56,8 @@ function chequearSiGano(grilla) {
 // Implementar alguna forma de mostrar un cartel que avise que ganaste el juego
 function mostrarCartelGanador() {
   if (chequearSiGano()){
-    alert('Ganaste el juego!')
-  }
+    alert('Ganaste el juego!');
+  };
 }
 
 /* Función que intercambia dos posiciones en la grilla.
