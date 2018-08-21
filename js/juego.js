@@ -9,7 +9,7 @@ var movimientos = [];
 
 // Representación de la grilla. Cada número representa a una pieza.
 // El 9 es la posición vacía
-var grilla = [
+  var grilla = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
