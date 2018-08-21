@@ -241,6 +241,8 @@ function mezclarPiezas(veces) {
   setTimeout(function() {
       mezclarPiezas(veces - 1);
     }, 100);
+
+    movimientos = []; // resetear array de Movimientos para que queden solo los hechos por el usuario
 }
 
 /* capturarTeclas: Esta función captura las teclas presionadas por el usuario. Javascript
